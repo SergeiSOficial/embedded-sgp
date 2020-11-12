@@ -79,7 +79,7 @@ static const uint8_t SGP30_I2C_ADDRESS = 0x58;
 
 /* command and constants for setting absolute humidity */
 #define SGP30_CMD_SET_ABSOLUTE_HUMIDITY 0x2061
-#define SGP30_CMD_SET_ABSOLUTE_HUMIDITY_DURATION_US 10000
+#define SGP30_CMD_SET_ABSOLUTE_HUMIDITY_DURATION_US 0 //10000 , zero only for testing
 
 /* command and constants for getting TVOC inceptive baseline */
 #define SGP30_CMD_GET_TVOC_INCEPTIVE_BASELINE 0x20b3
